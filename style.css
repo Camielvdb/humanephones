@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Poppins Italic";
+    src: url(Poppins-Italic.ttf);
+}
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url(Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins SemiBold Italic";
+    src: url(Poppins-SemiBoldItalic.ttf);
+}
+
+
+
+/* 
+Width 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+Track
+::-webkit-scrollbar-track {
+  background: none; 
+}
+ 
+Handle
+::-webkit-scrollbar-thumb {
+  background: #CF5E3A; 
+}
+
+*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+* {
+    font-family: "Poppins Regular";
+    color: #272727;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+body {
+    margin: none;
+    padding: none;
+}
+
+div#home {
+    top: 0;
+    left: 0;
+    position: fixed;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+div#menu {
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin: none;
+    padding: none;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+header {
+    background-color: white;
+    top: 0;
+    width: 100vw;
+    padding: none;
+}
+
+h1 {
+    font-family: "Poppins SemiBold";
+    text-align: left;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+li {
+    list-style: none;
+    align-self: flex-end;
+    margin-left: 30px;
+}
+
+li a {
+    padding: 10px;
+    border-radius: 15px;
+    transition: .1s;
+}
+
+li a:hover {
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    text-decoration: underline;
+}
+
+main {
+    display: inline-flex;
+    margin: 20px;
+}
+
+main a {
+    background-color: #EECC51;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-family: "Poppins SemiBold";
+    transition: .2s;
+    text-align: center;
+}
+
+main section a:hover {
+    background-color: #213C59;
+    color: #FFFFFF;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    letter-spacing: .2px;
+}
+
+main img {
+    height: 85vh;
+    position: fixed;
+    bottom: 0;
+    right: 60vw;
+}
+
+section:nth-of-type(1) {
+    margin-top: calc(50vh - 180px);
+    margin-left: 43vw;
+    max-width: 500px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+}
+
+/*-------IMAGES---------*/
+
+nav div#home img {
+    width: 250px;
+    margin-top: -10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+nav div#home img:hover {
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+}
+
+
+/*--------------------------------------------*/
+
+::selection {
+    background: #009380;
+    color: white;
+}
+
+
+/*------------------------------------------------------- Media Queries ------------------------------------------------------*/
+
+/* landscape */
+@media screen and (orientation:landscape) {
+	/* landscape-specific styles */
+
+}
+
+/* Exclusively on phones or smaller screens: */
+@media only screen and (max-width: 450px) { 
+
+}
+
+/* Exclusively on desktops or larger screens: */
+@media only screen and (min-width: 890px) {
+   
+}
+
+/* Exclusively on desktops or larger screens: */
+@media only screen and (min-height: 600px) {
+  
+}
+
+/* Exclusively on desktops or larger screens: */
+@media only screen and (min-height: 1000px) {
+
+}
+
+@media only screen and (max-width: 670px) {
+
